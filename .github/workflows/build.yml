@@ -28,8 +28,7 @@ jobs:
           - aarch64_generic
           - x86_64
         sdk:
-          - openwrt-22.03
-          - SNAPSHOT
+          - openwrt-24.10
 
     steps:
       - uses: actions/checkout@v4
